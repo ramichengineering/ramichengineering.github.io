@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>James Ramich</title>
+<style>
+  :root {
+    --bg: #fdfbf7;
+    --ink: #21201c;
+    --quiet: #79746a;
+    --accent: #1b5e8c;
+    --rule: #e7e2d8;
+  }
+  * { box-sizing: border-box; }
+  body {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 64px 24px 80px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--ink);
+    background: var(--bg);
+  }
+  ::selection { background: #d3e6f0; }
+
+  h1, h2, h3 {
+    font-family: Georgia, 'Iowan Old Style', 'Times New Roman', serif;
+    font-weight: normal;
+  }
+  h1 {
+    font-size: 2.1em;
+    letter-spacing: -0.015em;
+    margin: 0 0 2px;
+  }
+  h2 {
+    font-size: 1.25em;
+    font-style: italic;
+    color: var(--accent);
+    margin: 2.8em 0 0.9em;
+    padding-bottom: 0.35em;
+    border-bottom: 1px solid var(--rule);
+  }
+  h3 {
+    font-size: 1.08em;
+    font-weight: bold;
+    margin: 1.6em 0 0.2em;
+  }
+
+  p { margin: 0.6em 0; }
+  ul { padding-left: 1.25em; margin: 0.4em 0; }
+  li { margin: 0.3em 0; }
+  li::marker { color: var(--accent); }
+
+  a {
+    color: var(--ink);
+    text-decoration: underline;
+    text-decoration-color: #85b0cf;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+    transition: color 0.15s, text-decoration-color 0.15s;
+  }
+  a:hover { color: var(--accent); text-decoration-color: var(--accent); }
+
+  .quiet { color: var(--quiet); }
+  .small { font-size: 0.86em; }
+  .dates {
+    font-family: ui-monospace, Consolas, Menlo, monospace;
+    font-size: 0.72em;
+    color: var(--quiet);
+    letter-spacing: 0.02em;
+  }
+
+  code {
+    font-family: ui-monospace, Consolas, Menlo, monospace;
+    font-size: 0.85em;
+    background: #f3efe6;
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    padding: 1px 5px;
+  }
+
+  header { margin-bottom: 2.5em; }
+  header .links { margin-top: 0.4em; }
+  header .links a { margin-right: 4px; }
+  header .links span { color: #cdc7ba; margin-right: 4px; }
+
+  footer {
+    margin-top: 4em;
+    padding-top: 1.2em;
+    border-top: 1px solid var(--rule);
+    color: var(--quiet);
+    font-size: 0.85em;
+  }
+
+  @media (max-width: 480px) {
+    body { padding-top: 40px; }
+    h1 { font-size: 1.7em; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>James Ramich</h1>
+  <p class="quiet">Automation &amp; mechanical design engineer in Charlotte, NC.</p>
+  <p class="links small">
+    <a href="https://github.com/ramichengineering">GitHub</a> <span>·</span>
+    <a href="https://linkedin.com/in/ramichengineering">LinkedIn</a> <span>·</span>
+    <a href="mailto:ramichengineering@gmail.com">ramichengineering@gmail.com</a>
+  </p>
+</header>
+
+<p>I design tooling, fixtures, and automation systems for manufacturing —
+end of arm tooling, custom fixtures, sheet metal processing, and
+multi-machine workflow layouts, mostly in SOLIDWORKS. I'm finishing a B.S.
+in Robotics Engineering Technology at Purdue (May 2026), concentrating in
+AI and software with a minor in Computer Information Technology.</p>
+
+<h2>Work</h2>
+
+<h3>Bunker Automation <span class="dates">design engineer · 2022–2025</span></h3>
+<ul>
+<li>Oversaw projects involving end of arm tooling, custom fixtures, and sheet metal processing.</li>
+<li>Created professional 3D models, engineering drawings, and documentation using SOLIDWORKS CAD.</li>
+<li>Developed layouts for multi-machine workflows with efficiency in mind.</li>
+<li>Worked directly with customers to refine designs during the design/manufacturing phase to better fit their needs.</li>
+<li>Provided last-minute support and design revisions under strict cost, time, and dimensional constraints.</li>
+<li>Wrote hardware and simulation demos for Yaskawa robots to prove faster cycle times for potential customers and help secure job contracts.</li>
+</ul>
+
+<h3>America In Motion <span class="dates">engineering intern · summer 2021</span></h3>
+<ul>
+<li>Conducted CAD work on AGV systems using SOLIDWORKS.</li>
+<li>Designed a testing platform with a forklift-style lift for a 3D vision camera.</li>
+</ul>
+
+<h3>System Technology Works LLC <span class="dates">contract design work · 2020–2021</span></h3>
+<ul>
+<li>Reverse-engineered a customer's handmade humanoid robot design for patented (US 10532464) project work.</li>
+<li>Converted hand drawings into digital models using SOLIDWORKS.</li>
+<li>Delivered renderings, engineering drawings, assembly instructions, and documentation to the customer.</li>
+</ul>
+
+<h2>Projects</h2>
+
+<h3>Wheelchair Accessibility Capstone</h3>
+<p>Senior capstone project with BraunAbility, developing wheelchair
+accessibility solutions.</p>
+
+<h2>Etc.</h2>
+<p>Day to day I work in SOLIDWORKS and Fusion 360, and with industrial
+robotics platforms like Yaskawa, PLCs, and HMIs. On the software side I
+write C, Python, Java, and MATLAB, and have worked with XML, LabVIEW,
+ROS2, Android Studio, and Multisim. Comfortable across Windows, Linux,
+and Mac. I'm a Certified SOLIDWORKS Professional (CSWP) and Certified
+SOLIDWORKS Professional Advanced (CSWPA) in DT, SM, SU, and WD.</p>
+
+<footer>
+Last updated July 2026.
+</footer>
+
+</body>
+</html>
